@@ -19,7 +19,7 @@ const grettingMessage = 'Benvenuto, la tua mail è'
   const userEmail = userEmailInput.value.trim();
 
   // Controllo se l'input è una mail valida
-  if (userEmail.length < 1){
+  if (userEmail.length < 1 || !/@/.test(userEmail)){
   alert('Dati inseriti non validi')
   } else {
 
@@ -27,11 +27,8 @@ const grettingMessage = 'Benvenuto, la tua mail è'
     for (i = 0; i < emails.length; i++) {
 
       // Se trovo una email uguale creo un alert
-      if (userEmail === emails [i]) {
-        alert("Email inserita già esistente, per favore scegliere un'altra email")
-      }
+      if (userEmail === emails [i]) alert("Email inserita già esistente, per favore scegliere un'altra email");
     }
-
 
     // Stampo il messaggio di benvenuto in pagina
     userGreeting.innerText = grettingMessage + ' ' + userEmail;
