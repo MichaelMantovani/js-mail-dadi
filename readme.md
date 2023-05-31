@@ -27,8 +27,11 @@
 - Recupero gl elementi dal DOM
 - Resto in ascolto del click del bottono
 - Creo un messaggio di benvenuto 
-  **QUANDO** l'utente clicca il bottone recupero la sua mail 
-    **SE** la mail è presente nella lista 
-      - Stampo un messaggio di benvenuto
+  **QUANDO** l'utente clicca il bottone recupero il valore dell'input
+    **SE** il valore dell'input non contiene una @ ed è più corto di una lettera
+    - Creo un alert 'dati inseriti non validi'
+    **ALTRIMENTI SE** la mail inserita si trova già nell'array delle mail
+    - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
     **ALTRIMENTI**
-      - Creo un alert
+    - Stampo il messaggio di benvenuto in pagina
+
