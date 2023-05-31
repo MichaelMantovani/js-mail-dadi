@@ -19,7 +19,7 @@ const grettingMessage = 'Benvenuto, la tua mail è'
   const userEmail = userEmailInput.value.trim();
 
   // Controllo se l'input è una mail valida
-  if (userEmail.length < 1 || !/@/.test(userEmail)){
+  if (userEmail.length < 1 || !userEmail.match('@')){
   alert('Dati inseriti non validi')
   } else {
 
