@@ -36,5 +36,6 @@
       **SE** trovo una mail uguale
       - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
       **ALTRIMENTI**
+       - Aggiungo la mial all'array
        - Stampo il messaggio di benvenuto in pagina
 

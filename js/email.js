@@ -30,6 +30,9 @@ const grettingMessage = 'Benvenuto, la tua mail è'
       if (userEmail === emails [i]) alert("Email inserita già esistente, per favore scegliere un'altra email");
     }
 
+    // Aggiungo la mial all'array
+    emails.push(userEmail);
+
     // Stampo il messaggio di benvenuto in pagina
     userGreeting.innerText = grettingMessage + ' ' + userEmail;
   }
