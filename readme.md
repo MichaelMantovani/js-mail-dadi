@@ -32,12 +32,11 @@
     **SE** il valore dell'input non contiene una @ ed è più corto di una lettera
     - Creo un alert 'dati inseriti non validi'
     **ALTRIMENTI** 
-    - Controllo tutte le mail fin che non trovo la stessa     mail 
+    - Controllo tutte le mail fin che non trovo la stessa mail 
       **SE** trovo una mail uguale
-      - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
-      **ALTRIMENTI**
-       - Aggiungo la mial all'array
        - Stampo il messaggio di benvenuto in pagina
+      **ALTRIMENTI**
+       - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
 
 <br>
 <br>

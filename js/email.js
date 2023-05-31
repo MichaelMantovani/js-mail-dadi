@@ -23,19 +23,24 @@ const grettingMessage = 'Benvenuto, la tua email è'
   alert('Dati inseriti non validi')
   } else {
 
+    let isValid = false
+
     // Controllo tutte le email salvate
     for (i = 0; i < emails.length; i++) {
 
-      // Se trovo una email uguale creo un alert
-      if (userEmail === emails [i]) alert("Email inserita già esistente, per favore scegliere un'altra email");
+      if (userEmail === emails [i]) isValid = true
     }
-
-    // Aggiungo la mial all'array
-    emails.push(userEmail);
-
-    // Stampo il messaggio di benvenuto in pagina
-    userGreeting.innerText = grettingMessage + ' ' + userEmail;
+       
+  
+    
+    // Se trovo una email uguale Stampo il messaggio di benvenuto in pagina altrimenti creo un alert
+    if (!isValid) {
+      alert("Email inserita non esistente, per favore scegliere un'altra email")
+    } else {
+      userGreeting.innerText = grettingMessage + ' ' + userEmail;
+    }  
   }
+
+  })
   
   
-})
