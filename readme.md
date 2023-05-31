@@ -25,12 +25,15 @@
 - Creo un array con delle mail
 - Creo un input con un bottone per chiedere all'utente la sua mail
 - Recupero gl elementi dal DOM
-- Resto in ascolto del click del bottono
 - Creo un messaggio di benvenuto 
-  **QUANDO** l'utente clicca il bottone recupero il valore dell'input
+- Mi metto in ascolto del click del bottone
+  **QUANDO** l'utente clicca il bottone 
+  - recupero il valore dell'input
     **SE** il valore dell'input non contiene una @ ed è più corto di una lettera
     - Creo un alert 'dati inseriti non validi'
-    **ALTRIMENTI SE** la mail inserita si trova già nell'array delle mail
+    **ALTRIMENTI** 
+    - Controllo tutte le mail fin che non trovo la stessa     mail 
+      **SE** trovo una mail uguale
     - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
     **ALTRIMENTI**
     - Stampo il messaggio di benvenuto in pagina
