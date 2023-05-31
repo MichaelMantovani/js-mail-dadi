@@ -46,19 +46,19 @@
 
 - Creo un bottone per generare due numeri
 - Recupero gli elementi dal DOM
+- Creo il messaggio per la vittoria dell'utente
+- Creo il messaggio per la vittoria della CPU
+- Creo il messaggio per il pareggio
 **QUANDO** l'utente clicca sul bottone
   - Genero un numero casuale da 1 a 6 
   - Assegno il numero alla CPU
   - Genero un numero casuale da 1 a 6 
   - Assegno il numero all'utente
-- Creo il messaggio per la vittoria dell'utente
-- Creo il messaggio per la vittoria della CPU
-- Creo il messaggio per il pareggio
-**SE** il numero CPU è maggiore del numero utente
- - Stampo nel DOM il messaggio di vittoria della CPU
- **ALTRIMENTI SE** il numero utente è maggiore del numero CPU
- - Stampo nel DOM il messaggio di vittora dell'utente
- **ALTRIMENTI** 
- - Stanmpo nel DOM il messaggio per il pareggio 
+    **SE** il numero CPU è maggiore del numero utente
+      - Stampo nel DOM il messaggio di vittoria della CPU
+    **ALTRIMENTI SE** il numero utente è maggiore del numero CPU
+      - Stampo nel DOM il messaggio di vittora dell'utente
+    **ALTRIMENTI** 
+      - Stanmpo nel DOM il messaggio per il pareggio 
 
  
