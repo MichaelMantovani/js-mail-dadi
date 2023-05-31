@@ -44,14 +44,13 @@
 
 **SVOLGIMENTO TRACCIA DADI**
 
-- Creo due bottoni per generare due numeri
+- Creo un bottone per generare due numeri
 - Recupero gli elementi dal DOM
-**QUANDO** l'utente clicca sul bottone-utente
-  - Genero un numero casuale da 1 a 6 
-  - Assegno il numero all'utente
-**QUANDO** l'utente clicca sul bottone-cpu
+**QUANDO** l'utente clicca sul bottone
   - Genero un numero casuale da 1 a 6 
   - Assegno il numero alla CPU
+  - Genero un numero casuale da 1 a 6 
+  - Assegno il numero all'utente
 - Creo il messaggio per la vittoria dell'utente
 - Creo il messaggio per la vittoria della CPU
 - Creo il messaggio per il pareggio
