@@ -10,7 +10,7 @@ const userGreeting = document.getElementById('welcome')
 
 
 // Creo un messaggio di benvenuto 
-const grettingMessage = 'Benvenuto, la tua mail è'
+const grettingMessage = 'Benvenuto, la tua email è'
 
 // Mi metto in ascolto del click del bottone
   submitButton.addEventListener('click', function() {
