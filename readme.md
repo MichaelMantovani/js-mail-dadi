@@ -34,7 +34,7 @@
     **ALTRIMENTI** 
     - Controllo tutte le mail fin che non trovo la stessa     mail 
       **SE** trovo una mail uguale
-    - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
-    **ALTRIMENTI**
-    - Stampo il messaggio di benvenuto in pagina
+      - Creo un alert 'email inserita già esistente, scegliere un'altra mail'
+      **ALTRIMENTI**
+       - Stampo il messaggio di benvenuto in pagina
 
