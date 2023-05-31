@@ -49,6 +49,7 @@
 - Creo il messaggio per la vittoria dell'utente
 - Creo il messaggio per la vittoria della CPU
 - Creo il messaggio per il pareggio
+- Creo il messaggio per stampare i numeri in pagina
 **QUANDO** l'utente clicca sul bottone
   - Genero un numero casuale da 1 a 6 
   - Assegno il numero alla CPU
@@ -60,5 +61,5 @@
       - Stampo nel DOM il messaggio di vittora dell'utente
     **ALTRIMENTI** 
       - Stanmpo nel DOM il messaggio per il pareggio 
-
+  -Stampo il numero dell'utente e il numero della CPU
  
