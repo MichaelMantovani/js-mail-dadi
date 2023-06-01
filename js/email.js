@@ -26,19 +26,19 @@ const grettingMessage = 'Benvenuto, la tua email è'
     let isValid = false
 
     // Controllo tutte le email salvate
-    for (i = 0; i < emails.length; i++) {
+    for (i = 0; i < emails.length && isValid === false; i++) {
 
       if (userEmail === emails [i]) isValid = true
     }
        
-  
-    
     // Se trovo una email uguale Stampo il messaggio di benvenuto in pagina altrimenti creo un alert
     if (!isValid) {
       alert("Email inserita non esistente, per favore scegliere un'altra email")
     } else {
       userGreeting.innerText = grettingMessage + ' ' + userEmail;
     }  
+
+    
   }
 
   })
